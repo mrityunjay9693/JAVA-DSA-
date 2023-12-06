@@ -21,5 +21,7 @@ public class GreatestNumberAmongThree_1 {
             System.out.println("Greatest number : " + second_num);
         } else
             System.out.println("Greatest number:" + third_num);
+
+        scan.close();
     }
 }
