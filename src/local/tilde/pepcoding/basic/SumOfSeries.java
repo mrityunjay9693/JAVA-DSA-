@@ -16,14 +16,14 @@ public class SumOfSeries {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter value of n : ");
         int n = scan.nextInt();
-        //int sum = 0;
-        
+        // int sum = 0;
+
         // for (int i = 1; i <= n; i++) {
-        //     sum += i;
+        // sum += i;
         // }
         // System.out.println("Sum of series 1 to n: "+sum);
-        int sumOfSeries = (n*(n+1))/2;
-        System.out.println("Sum of series 1 to n: "+sumOfSeries);
+        int sumOfSeries = (n * (n + 1)) / 2;
+        System.out.println("Sum of series 1 to n: " + sumOfSeries);
         scan.close();
     }
 }
