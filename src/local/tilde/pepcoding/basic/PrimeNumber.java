@@ -9,13 +9,24 @@ public class PrimeNumber {
         int number = scan.nextInt();
         int flag = 1; // 1 -> prime
 
-        for (int i = 2; i < (number / 2); i++) {
+        // for (int i = 2; i < (number / 2); i++) {
+        // if (number % i == 0) {
+        // flag = 0;
+        // break;
+        // }
+        // }
+
+        for (int i = 2; i < Math.sqrt(number); i++) {
+            if (number == 1) {
+                System.out.println(number + " is not a prime number");
+                break;
+            }
             if (number % i == 0) {
                 flag = 0;
                 break;
             }
         }
-        System.out.println("flag:" + flag);
+
         if (flag == 0) {
             System.out.println(number + " is not a prime number");
         } else {
