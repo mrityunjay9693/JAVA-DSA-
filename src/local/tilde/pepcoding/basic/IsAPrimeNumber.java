@@ -29,7 +29,7 @@ public class IsAPrimeNumber {
         int t = scan.nextInt();
 
         for (int j = 1; j <= t; j++) {
-            int numbers = scan.nextInt();
+             int numbers = scan.nextInt();
             int flag = 1; // 1 -> prime
             if (numbers == 1) {
                 System.out.println("Invalid test case.");
