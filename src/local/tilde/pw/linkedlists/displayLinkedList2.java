@@ -5,10 +5,10 @@ package local.tilde.pw.linkedlists;
 public class displayLinkedList2 {
 
     public static void viewNode(Node head) {
-        Node temp = head;
-        while (temp != null) {
-            System.out.print(temp.data + " ");
-            temp = temp.next;
+        //Node temp = head;
+        while (head != null) {
+            System.out.print(head.data + " ");
+            head = head.next;
         }
         System.out.println();
     }
@@ -24,5 +24,6 @@ public class displayLinkedList2 {
         data3.next=data4;
 
         viewNode(data1);
+        //viewNode(data2);
     }
 }
