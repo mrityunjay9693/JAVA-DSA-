@@ -8,7 +8,12 @@ public class displayList3 {
 
         System.out.print(head.data + " ");
         displayRecursive(head.next);
-        System.out.print(head.data + " "); //display list in reverse order
+    }
+    public static void displayReverseRecursive(Node head){
+        if(head==null)
+            return;
+        displayReverseRecursive(head.next);
+        System.out.print(head.data+" ");
     }
 
     public static void main(String[] args) {
@@ -22,6 +27,8 @@ public class displayList3 {
         n3.next = n4;
         System.out.println("List:");
         displayRecursive(n1);
+        System.out.println();
+        displayReverseRecursive(n1);
         System.out.println();
     }
 }
