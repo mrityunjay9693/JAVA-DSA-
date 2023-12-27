@@ -8,6 +8,7 @@ public class displayList3 {
 
         System.out.print(head.data + " ");
         displayRecursive(head.next);
+        System.out.print(head.data + " "); //display list in reverse order
     }
 
     public static void main(String[] args) {
