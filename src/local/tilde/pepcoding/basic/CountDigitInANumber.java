@@ -17,7 +17,5 @@ public class CountDigitInANumber {
             d++; // count of digit. 
         }
         System.out.println("Total count of digit in "+n +" : " +d);
-
-        scan.close();
     }
 }
