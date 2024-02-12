@@ -1,0 +1,39 @@
+Function : Function(or, method) in programming is a set of instruction or collection of statement that perform some 
+           specific task and return the result. 
+
+          Syntax : <access modifier> <return type> <method/function name>(parameters)
+                   {
+                        //body
+                        //set of instructions 
+                        //or, statement
+                   }
+          Example : public static int addNum(int num1, int num2)  // num1 , num2 : parameters. 
+                    {
+                        return (num1 + num2);  //set of instructions
+                    }
+                    here, from line 11 to 13 is the body of function/method.
+                          public : Access modifier
+                          int : return type
+                          addNum : function/method name
+    
+Note: "main" method is the special function/method in Java which is called upon by code execution.
+
+Types of methods/functions in Java : There are two types of methods in Java which is mentioned as follow: 
+                                     a)Predefined methods/functions
+                                     b)User-redefined methods/functions
+                        
+Execution of a function can be done in two ways:
+i)Print the result.
+ii)Return the result.(i.e., responds)
+
+Notes: a)Whenever our function is executed , its code executes at two places of memory or with the help of two things:
+         i)Program stack.(call stack)
+         ii)Heap memory.
+
+       b)Whenever our code is executed, two types of memeory is made which is a)call stack(program stack) and b)heap memory
+
+Q: When will the function return back to main at callable line?
+Ans: The function constrol will return when: 
+     a)forcefully code is terminated and, 
+     b)no more line left in function to be executed.   
+     
