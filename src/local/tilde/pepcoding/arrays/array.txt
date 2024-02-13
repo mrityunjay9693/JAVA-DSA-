@@ -1,0 +1,37 @@
+Array : An array is a collection of items of similar type at contiguous memory locations. The idea is to store multiple 
+        items of same type together. Array is the basic data structure to store the multiple information i.e., data 
+        under a single variable.  
+
+        Example : arr = [15, 12, 10, 19, 18, 27, 60]; 
+                index:   0    1   2   3   4  5   6
+                where, 15, 12, 10, 19, 18, 27, 60 are the elements of the array
+
+Note : Java arrays are sero-based indexing i.e., array index started from 0(zero).
+
+Types of Array: In Java, arrays are generally categorised in two types mentioned as below:
+                a)One-dimentional array(1-D array)
+                b)Multi-dimentional array(2-D array, 3-D... etc)
+Note:a)Whenever, we have large quantity of information of same type i.e., data then we use array to store those information.
+     b)In array, each element can be uniquely identified by their index. In Java array, index starts from 0(zero) which means
+       it is zero based indexing.
+     c)In Java , all arrays are dynamically allocated.
+     d)It is important to note that, Java arrays are object and its length can be find using the object property "length".
+       This is different from C/C++, where "sizeof" is used to find its length.
+     e)An array can contain primitives(int, char, etc) type values and object references(non-primitives) of a class depending
+       on the definition of array. In case of primitive data types, the actual values are stored in contiguous memeory 
+       location. And in case of class object, the actual object are stored in a heap segment.
+     f)Default values of an array is 0(zero).
+
+Array Declaration(Creating an array): The array declaration has two components namely:
+                                      i)Data type 
+                                     ii)Variable name.
+i)Data type: Data type element will determines the user about what kind of item the array will hold.
+ii)Variable name: This is the name given to the respective array.
+
+    Syntax for creating an 1-d array : data_type variable_name[];   or,
+                                       data_type[] variable_name; 
+                                       
+                             Example: int arr[]; //Declaration of an array and "int" represents the array will 
+                                                 //hold values of int type.
+                                                 
+                                
