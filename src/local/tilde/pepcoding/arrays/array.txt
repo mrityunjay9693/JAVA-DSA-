@@ -85,7 +85,19 @@ Memory Allocation and Memeory Management :
   ->  will discuss this topic later.
 
 Q: How to find the length of an array in Java?
-Ans: "length" property is sued to find out the length of an array.
+Ans: Java provides an important property i.e., the "length" property, which is sued to find out the length of an array.
       Syntax : array_name.length; //read as array name dot length
 
-      Exmple : 
+      Exmple : public class LengthOfArray {
+                public static void main(String[] args) {
+                  int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+                  int lengthOfArray = arr.length;  // -> length property
+                  System.out.println("Length of an Array : " + lengthOfArray);
+               }
+
+}
+
+Accessing Arrays : Accessingss an array element in Java can be done by using the following loops:
+                  a)for loops
+                  b)for each loop  
+a)for loops 
