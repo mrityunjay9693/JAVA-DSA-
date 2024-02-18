@@ -28,10 +28,64 @@ Array Declaration(Creating an array): The array declaration has two components n
 i)Data type: Data type element will determines the user about what kind of item the array will hold.
 ii)Variable name: This is the name given to the respective array.
 
+Syntax 1 :
     Syntax for creating an 1-d array : data_type variable_name[];   or,
                                        data_type[] variable_name; 
                                        
                              Example: int arr[]; //Declaration of an array and "int" represents the array will 
                                                  //hold values of int type.
                                                  
+Instantiating Array(Specifying size of an array): We know that array declaration means only a reference of an array is created. 
+                                                  To create or givememeory to the array i.e., specifying the size of array, 
+                                                  new keyword is used along with type of the array which is followed by a square
+                                                  bracket in which size is sepcified. 
+
+Syntax 2 :                                  
+
+Syntax: variable_name = new data_type[size/length];
+
+Example: arr = new int[20]; //allocating memeory to the array.
+                                                
+Where,* "variable_name" is the name given to the array.
+      * "new" keyword is used to allocat memeory to the array.
+      * "data_type" specifies/determines/states that what type of data being 
+                 allocated to the array and hold by the array.
+                                                * "size/length" determines about the number of element or data, the array 
+                                                  will hold. Parameter in the square bracket i.e., [] tells us about the 
+                                                  size/length of array.
+
+new : The new keyword is used to allocate an array, we must specify the type and size(number of element) to allocate.
+
+-> The element in the array which is allocated by "new" keyword will automatically initialized to some default value such as:
+
+   i) Zero(0) : for numeric.
+  ii) false   : for boolean.
+ iii) null    : for reference type.
+  iv) null    : for String type.
+   v) 0.0     : for double 
+                                                  
+->Combining syntax of line 31 and 43 :
+
+    data_type variable_name[] = new data_type[size/length];
+  or,
+    data_type[] variable_name = new data_type[size/length];  
                                 
+  Example :i) int arr[] = new int[10];
+           ii)String[] str = new String[5];
+
+
+->To obtain an array is of two step:
+  Step I : Declaring an array of specific data type.
+  Step II: Secondly, to allocate the memeory to hold the array, using "new" keyword and assign it to the array variable. 
+           Thus, "in Java all arrays are dynamically allocated."            
+          
+Memory Allocation and Memeory Management : 
+  ->Entities created using the "new" keyword, such as object and instances, are allocated on the heap memeory. However not all 
+    entities, such as primitive types and local variables, created with "new" will necessarily be allocated in the heap.
+  ->  will discuss this topic later.
+
+Q: How to find the length of an array in Java?
+Ans: "length" property is sued to find out the length of an array.
+      Syntax : array_name.length; //read as array name dot length
+
+      Exmple : 
