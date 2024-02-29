@@ -100,4 +100,29 @@ Ans: Java provides an important property i.e., the "length" property, which is s
 Accessing Arrays : Accessingss an array element in Java can be done by using the following loops:
                   a)for loops
                   b)for each loop  
-a)for loops 
+a)for loops: Each element of a array can be accessed using its index. The index of the array begins from 0 and 
+             ends at index number "length of array - 1"
+
+    Syntax: for(variable_name = 0; variable_name < arr.length -1; variable_name++/variable_name--)
+            {
+              //statement to access array's element.                
+            }
+    Example: 
+            public class AccessingArray {
+              public static void main(String[] args) {
+                int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+                for (int i = 0; i < arr.length; i++) {
+                System.out.println(arr[i]);
+                }
+              }
+            }
+
+b)for each loop: This is an another way of traversing array or collection in java and it was introduced in java 5. In for-eac loop
+                 traversal technque, a variable is directly initialized with the same type as the base type of the array. THe variable
+                 can be used to access the array element without any indexing. The value of for-each loop's variable chnages to 
+                 successive elements of array after each iteration.
+
+        Syntax: for(type variable_name : array_name)
+                {
+                  //statement to access value of variable.
+                }      
