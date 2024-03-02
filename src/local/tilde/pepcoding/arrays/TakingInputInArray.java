@@ -11,5 +11,6 @@ public class TakingInputInArray {
         for(int i = 0; i < length; i++){
             arr[i] = scan.nextInt();
         }
+        scan.close();
     }   
 }
