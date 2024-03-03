@@ -126,3 +126,39 @@ b)for each loop: This is an another way of traversing array or collection in jav
                 {
                   //statement to access value of variable.
                 }      
+
+Questions Bank : 
+Problem 1:Find Elements In An Array.
+          1.You are given a number "n", representing the size of array "arr".
+          2.You are given "n" distinct numbers, representing elements of "arr" i.e., n1, n2, n3, .. nn.
+          3.You are given another number "d".
+          4.You are required to chek if "d" number exists in the array "arr" or not. If "d" found, return its value
+            index, otherwise return -1.
+          Input Format: n (size of the array)
+                        n1, n2, n3, n4, n5, n6...nn
+                        d (any number or element of array "arr") 
+          Output Format: i (the index at which d found)
+                        -1 (-1 is returned when, d is not found in the array)
+          Constraints : 1 <= n <= 10^7
+                       -10^9 < n1, n2, n3, n4....nn <= 10^9
+                       -10^9 <= d <= 10^9
+          Sample Input: 6 (size of the array)
+                        15, 30, 40, 4, 11, 9
+                        40 (d: number to be found)
+          Sample OUtput: 2 (40 is found at index 2)
+ 
+Problem 2:Span Of Array
+          1.You are given a number "n", representing the count of elements.
+          2.You are given n numbers.
+          3.You are required to find the span of inputs. Span is defined as difference of maximum value and
+            minimum value.
+          4.Return span value
+          Input Format: n (total numbers of element in an array)
+                 n1, n2, n3, n4, n5, n6, ... nn.
+          Output Format: spanValue ( maximum value - minimum value)
+          Constraints: 1 <= n <= 10^4 
+                      0 <= n1, n2, n3, n4, n5, n6, ... n elements <= 10^9
+          Sample Inputs: 6 (n)
+                         15, 30, 40, 4, 11, 9
+          Sample OUtput: 36 (40 - 4)
+          Span value = Maximum value - Minimum value
