@@ -17,6 +17,39 @@
 
 package local.tilde.pepcoding.arrays;
 
+import java.util.Scanner;
+
 public class SpanOfArray {
-    
+  public static int findSpan(int[] arr, int n) {
+    //Write your logic here.
+    int maxValue = arr[0];
+    int minValue = arr[0];
+
+    for (int i = 0; i < n; i++) {
+      if (arr[i] > maxValue) {
+        maxValue = arr[i];
+      }
+      if (arr[i] < minValue) {
+        minValue = arr[i];
+      }
+    }
+    return (maxValue - minValue);
+  }
+
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+
+    System.out.print("Enter size of array(n): ");
+    int n = scan.nextInt();
+
+    int[] arr = new int[n];
+    System.out.println("Enter values in array: ");
+    for (int i = 0; i < n; i++) {
+      arr[i] = scan.nextInt();
+    }
+
+    System.out.print("Span of array: ");
+    System.out.print(findSpan(arr, n) + "\n");
+    scan.close();
+  }
 }
