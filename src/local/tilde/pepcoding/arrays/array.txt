@@ -162,3 +162,13 @@ Problem 2:Span Of Array
                          15, 30, 40, 4, 11, 9
           Sample OUtput: 36 (40 - 4)
           Span value = Maximum value - Minimum value
+
+Problem: Inverse Of An Array
+         1.You are given a number "n",representing the size of array arr.
+         2.You are given n numbers, representing elements of array arr.
+         3.You are required to calculate the inverse of array array arr. 
+Constraints: 0 <= n < 10^7. The only difference is the range of values is from 0 to n-1, instead of 1 to n.
+Sample Input: 5 (n : size of array arr)
+                 4, 0, 2, 3, 1
+Sample Output:1, 4, 2, 3, 0
+ 
