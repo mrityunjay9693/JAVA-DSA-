@@ -169,6 +169,6 @@ Problem: Inverse Of An Array
          3.You are required to calculate the inverse of array array arr. 
 Constraints: 0 <= n < 10^7. The only difference is the range of values is from 0 to n-1, instead of 1 to n.
 Sample Input: 5 (n : size of array arr)
-                 4, 0, 2, 3, 1
+              4, 0, 2, 3, 1
 Sample Output:1, 4, 2, 3, 0
  
