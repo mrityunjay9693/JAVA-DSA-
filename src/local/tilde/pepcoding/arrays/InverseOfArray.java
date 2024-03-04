@@ -15,8 +15,19 @@ import java.util.Scanner;
 
 public class InverseOfArray {
     public static int[] inverseArray(int[] arr) {
-        
-        return null;
+        // Logic
+        int[] ans = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            int j = arr[i]; // making value of arr as index for inverseArr
+            ans[j] = i;
+        }
+        return ans;
+    }
+
+    public static void display(int[] arr) {
+        for (int value : arr) {
+            System.out.print(value + " ");
+        }
     }
 
     public static void main(String[] args) {
@@ -24,11 +35,14 @@ public class InverseOfArray {
         System.out.print("Enter size of array(n): ");
         int n = scan.nextInt();
         int[] arr = new int[n];
-
+        System.out.println("Enter values inside arr: ");
         for (int i = 0; i < n; i++) {
             arr[i] = scan.nextInt();
         }
-        inverseArray(arr);
-        scan.close();    
+        System.out.print("Inverse of arr: ");
+        int[] inverse = inverseArray(arr);
+        display(inverse);
+        System.out.println();
+        scan.close();
     }
 }
