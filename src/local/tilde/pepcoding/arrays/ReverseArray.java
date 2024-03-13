@@ -52,6 +52,6 @@ public class ReverseArray {
         reverseArray(arr);
         System.out.println("Reverse of arr: ");
         displayReverse(arr);
-
+        scan.close();
     }
 }
