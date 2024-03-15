@@ -26,7 +26,8 @@ public class SumTwoArrays {
         // Write your logic here
         int n = arr1.length; // size of arr1
         int m = arr2.length; // size of arr2
-        int k = Math.max(n, m); // size of resultant array
+        int k = Math.max(n, m); 
+        // size of resultant array
         int[] result = new int[k];
         int p1 = n - 1;
         int p2 = m - 1;
