@@ -17,18 +17,15 @@ import java.util.Scanner;
 public class RotateAnArray {
     public static void rotateArray(int[] arr, int k) {
         // Write your code here
-        // true rotation
-        k = k % arr.length;
-        // negative rotation
+        k = k % arr.length; // true rotation
+        // making true rotation positive.
         if (k < 0) {
-            // making true rotation positive.
             k = k + arr.length;
         }
                 
         reverseArray(arr, arr.length - k, arr.length - 1);  // reverse p2 of array
         reverseArray(arr, 0, arr.length - k - 1);    // reverse p1 of array
         reverseArray(arr, 0, arr.length - 1);       // reverse whole array
-        System.out.println("arr.length - k: "+(arr.length - k));
     }
 
     public static void reverseArray(int[] arr, int start, int end) {
