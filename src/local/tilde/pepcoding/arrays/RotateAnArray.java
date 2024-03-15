@@ -24,8 +24,7 @@ public class RotateAnArray {
             // making true rotation positive.
             k = k + arr.length;
         }
-        System.out.println("k:"+k);
-        
+                
         reverseArray(arr, arr.length - k, arr.length - 1);  // reverse p2 of array
         reverseArray(arr, 0, arr.length - k - 1);    // reverse p1 of array
         reverseArray(arr, 0, arr.length - 1);       // reverse whole array
@@ -38,9 +37,9 @@ public class RotateAnArray {
             int temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
+            start++;
+            end--;
         }
-        start++;
-        end--;
     }
 
     public static void displayArray(int[] arr) {
@@ -59,9 +58,7 @@ public class RotateAnArray {
         
         // taking input in arr
         System.out.println("Enter values in arr : ");
-        System.out.print("n:"+n);
         for (int i = 0; i < n; i++) {
-            System.out.println("for index "+i);
             arr[i] = scan.nextInt();
         }
         rotateArray(arr, k);
