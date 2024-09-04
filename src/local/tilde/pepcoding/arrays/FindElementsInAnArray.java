@@ -16,7 +16,7 @@
  * Sample Input: 6 (size of the array)
                  15, 30, 40, 4, 11, 9
                  40 (d: number to be found)
- * Sample OUtput: 2 (40 is found at index 2)
+ * Sample OUtput:2 (40 is found at index 2)
  */
 
 package local.tilde.pepcoding.arrays;
