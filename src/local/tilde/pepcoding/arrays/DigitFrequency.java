@@ -46,6 +46,7 @@ public class DigitFrequency {
 
         int frequency = frequencyOfDigit(arr, digit);
         System.out.println("Frequency of " + digit + ": " + frequency);
+        scan.close();
     }
 }
 
