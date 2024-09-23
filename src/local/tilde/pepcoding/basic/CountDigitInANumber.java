@@ -3,7 +3,7 @@ package local.tilde.pepcoding.basic;
 import java.util.Scanner;
 
 public class CountDigitInANumber {
-    public static void main(String[] args) {    
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enetr a number: ");
@@ -12,10 +12,11 @@ public class CountDigitInANumber {
 
         int d = 0;
 
-        while(temp != 0){
-            temp = temp/10;
-            d++; // count of digit. 
+        while (temp != 0) {
+            temp = temp / 10;
+            d++; // count of digit.
         }
-        System.out.println("Total count of digit in "+n +" : " +d);
+        System.out.println("Total count of digit in " + n + " : " + d);
+        scan.close();
     }
 }
