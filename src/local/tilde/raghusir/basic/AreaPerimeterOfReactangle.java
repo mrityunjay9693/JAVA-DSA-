@@ -28,5 +28,6 @@ public class AreaPerimeterOfReactangle {
         // int perimeter = (length*breadth);
         System.out.println("Area of reactangle: " + (2 * (length + breadth)));
         System.out.println("Perimeter of reactangle: " + (length * breadth));
+        scan.close();
     }
 }
