@@ -24,6 +24,5 @@ public class CMToFootMeter {
         System.out.println("In meter: "+(length/100));
         System.out.println("In foot: "+(length/30.48));
         scan.close();
-
     }
 }
