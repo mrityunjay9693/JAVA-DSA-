@@ -33,5 +33,6 @@ public class BiggestNumberAmongTwoValues {
         } else {
             System.out.println("Biggest number: " + num2);
         }
+        scan.close();
     }
 }
