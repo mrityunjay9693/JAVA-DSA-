@@ -1,6 +1,6 @@
 /**
- * Problem: Write a java program to read a length of a pipe from the user in 'cm'and print the length in 'foot' and 'meter'.
- * print in followingformat:
+ * Problem 5: Write a java program to read a length of a pipe from the user in 'cm'and print the length in 'foot' and 'meter'.
+              print in followingformat:
  * Input Format: Enter length: n (any number) 
  * Output Format:length in foot: area (any number, area of square)
                  length of meter: c (any number, perimeter of square)

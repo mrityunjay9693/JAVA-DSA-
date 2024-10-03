@@ -1,6 +1,6 @@
 /**
- * Problem: Write a Java program to read length and breadth of a reactangle from the user and print area and perimeter 
-   of the reactangle
+ * Problem 3: Write a Java program to read length and breadth of a reactangle from the user and print area and perimeter 
+              of the reactangle
  * Input Format: Enter length: length (any number)
                  Enter breadth: breadth (any number) 
  * Output Format:Area of reactangle: area (any number, area of circle)

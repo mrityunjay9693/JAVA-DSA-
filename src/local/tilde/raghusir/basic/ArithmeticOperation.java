@@ -1,6 +1,6 @@
 /**
- * Problem: Write a java program to read two integern valuesfrom user and perform all arithmetic operation and print result..
- * print in following format:
+ * Problem 6: Write a java program to read two integern valuesfrom user and perform all arithmetic operation and print result..
+              print in following format:
  * Input Format: Enter two numbers: num1 (any number)
  *                                  num2 
  * Output Format: Addition: t1 (addition result)

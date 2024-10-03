@@ -1,6 +1,6 @@
 /**
- * Write a java program to read radius from the user and calculate the area and circumference of cirecle.
- * print in followingformat:
+ * Problem 2: Write a java program to read radius from the user and calculate the area and circumference of cirecle.
+              print in followingformat:
  * Input Format: Enter radius: n (any number) 
  * Output Format:Area of circle: a (any number, area of circle)
                  Circumference of circle: c (any number, circumference of circle)

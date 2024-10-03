@@ -1,6 +1,6 @@
 /**
- * Problem: Write a java program to read a side of square from the user and print the area and perimeter of square.
- * print in followingformat:
+ * Problem 4: Write a java program to read a side of square from the user and print the area and perimeter of square.
+ *            print in followingformat:
  * Input Format: Enter side: n (any number) 
  * Output Format:Area of square: area (any number, area of square)
                  Perimeter of square: c (any number, perimeter of square)
