@@ -1,5 +1,5 @@
 /**
- * Problem 10: Write a java program to read the height(in meter) and weight(in Kilogram) of a person from the user and 
+ * Problem 11: Write a java program to read the height(in meter) and weight(in Kilogram) of a person from the user and 
                to print the body mass index (BMI) of the person.
 
  * Input Format:Enter height(m): height (any number(in double))
