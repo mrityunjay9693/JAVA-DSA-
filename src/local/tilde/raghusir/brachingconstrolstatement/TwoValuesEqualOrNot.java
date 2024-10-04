@@ -1,5 +1,5 @@
 /**
- * Problem: Write a java program to read two integer value from the user and to print weather those two entered number are 
+ * Problem 8: Write a java program to read two integer value from the user and to print weather those two entered number are 
             equal or not?
 
  * Input Format: Enter numbers: num1 (first number)

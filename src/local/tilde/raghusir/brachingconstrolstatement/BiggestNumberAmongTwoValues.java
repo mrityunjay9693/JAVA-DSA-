@@ -1,5 +1,5 @@
 /**
- * Problem: Write a java program to read two integer value from the user and to print biggest number among them.
+ * Problem 9: Write a java program to read two integer value from the user and to print biggest number among them.
 
  * Input Format: Enter first number: num1 (first number)
                  Enter second number: num2 (second number)

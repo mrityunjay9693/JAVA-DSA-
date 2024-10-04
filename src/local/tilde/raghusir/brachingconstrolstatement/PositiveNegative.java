@@ -1,5 +1,5 @@
 /**
- * Problem: Write a java program to read a number from the user and to print weather the entered number is 
+ * Problem 7: Write a java program to read a number from the user and to print weather the entered number is 
             positive or negative
  * print in followingformat:
  * Input Format: Enter number: num (any number) 
