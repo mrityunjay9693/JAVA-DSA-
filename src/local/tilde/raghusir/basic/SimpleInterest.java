@@ -39,5 +39,6 @@ public class SimpleInterest {
         double simpleInterest = (amount * interestRate * timePeriod) / 100;
         System.out.println("Simple Interest: " + simpleInterest);
 
+        scan.close();
     }
 }
