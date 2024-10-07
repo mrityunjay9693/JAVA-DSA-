@@ -1,5 +1,5 @@
 /**
- * Problem 9: Write a java program to read three integer value from the user and to print biggest number among them by 
+ * Problem 15: Write a java program to read three integer value from the user and to print biggest number among them by 
  *             using simple if statement.
 
  * Input Format:Enter first number: num1 (first number)
