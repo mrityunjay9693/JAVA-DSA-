@@ -1,0 +1,15 @@
+What is Programming?
+ > Programming is the process of creating a set of instruction that tells a computer about the task, how to perform it and delivered the 
+  a specific output.
+ > Programming is a task to implement a solution to a problem in the form of computer language.
+ > Programming is the process that models or structure the set of instructions that instruct the machine how to perform a task and what
+   to perform.
+
+Data Structure and Algorithm : A data structure is a named location that can be used to store and organize data. And, 
+                               An Algorithm is a collection of steps to solve a particular problem.
+                               Data structure and algorithm are the foundational blocks of big building named as programming.
+
+Binary Language: The language in the form of 0s and 1s, through which we can communicate with machines or computers is called binary language.
+                 Computera understands only binary language, i.e., in the form of 0s and 1s(Zero's and One's). It is also known as 
+                 "machine level language" or "low level language". 
+  
