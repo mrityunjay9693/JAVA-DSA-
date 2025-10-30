@@ -1,10 +1,10 @@
 package local.tilde.icsex;
 
 public class SumDifference {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int num1 = 25;
         int num2 = 16;
-        
+
         int sum = num1 + num2;
         int difference = num1 - num2;
 
