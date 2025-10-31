@@ -6,5 +6,12 @@
 package local.tilde.icsex.basics;
 
 public class SumDifferenceProduct {
+    public static void main(String[] args) {
+        double num1 = 12.35;
+        double num2 = 7.3;
 
+        System.out.println(
+                "Sum: " + (num1 + num2) + "\t" + "Difference: " + (num1 - num2) + "\t" + "Product: " + (num1 * num2));
+
+    }
 }
