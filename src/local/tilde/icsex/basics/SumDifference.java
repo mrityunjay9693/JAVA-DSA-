@@ -1,4 +1,4 @@
-package local.tilde.icsex;
+package local.tilde.icsex.basics;
 
 public class SumDifference {
     public static void main(String[] args) {
