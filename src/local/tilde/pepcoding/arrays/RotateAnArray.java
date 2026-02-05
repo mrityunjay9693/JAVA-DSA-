@@ -1,5 +1,5 @@
 /**
- * Problem: Rtate An Array
+ * Problem: Rotate An Array
             1.You are given a number "n", representing the size of array "arr".
             2.You are given "n" numbers, representing the values/elements of array "arr".
             3.You are given a number "k", representing the number of rotation.
@@ -22,10 +22,10 @@ public class RotateAnArray {
         if (k < 0) {
             k = k + arr.length;
         }
-                
-        reverseArray(arr, arr.length - k, arr.length - 1);  // reverse p2 of array
-        reverseArray(arr, 0, arr.length - k - 1);    // reverse p1 of array
-        reverseArray(arr, 0, arr.length - 1);       // reverse whole array
+
+        reverseArray(arr, arr.length - k, arr.length - 1); // reverse p2 of array
+        reverseArray(arr, 0, arr.length - k - 1); // reverse p1 of array
+        reverseArray(arr, 0, arr.length - 1); // reverse whole array
     }
 
     public static void reverseArray(int[] arr, int start, int end) {
@@ -52,7 +52,7 @@ public class RotateAnArray {
         int[] arr = new int[n];
         System.out.print("Enter value for rotation(k) : ");
         int k = scan.nextInt();
-        
+
         // taking input in arr
         System.out.println("Enter values in arr : ");
         for (int i = 0; i < n; i++) {
